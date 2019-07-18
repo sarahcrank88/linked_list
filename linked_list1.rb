@@ -32,7 +32,7 @@ def reverse_list(list)
     list = list.next_node
   end
 
-  return stack.pop
+  return stack.data
 end
 
 def print_values(list_node)
